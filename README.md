@@ -4,8 +4,12 @@ parcel-sample.
 
 ## Feater
 
-- React
+- React √
 - ES6 with Babel
+- SCSS
+- CSS Module
+- Typegraphy.js
+- Build for production
 
 ```console
 > pacel index.html
