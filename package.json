@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel index.html"
+    "start": "parcel index.html",
+    // "build": "parcel build index.html -d build --public-url http://www.amazons.com"
+    "build": "parcel build index.html -d build --public-url ./"
   },
   "repository": {
     "type": "git",
@@ -20,9 +22,11 @@
   "dependencies": {
     "autoprefixer": "^9.5.0",
     "babel-preset-react": "^6.24.1",
+    "cssnano": "^4.1.10",
     "postcss-modules": "^1.4.1",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "typography": "^0.16.19"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",

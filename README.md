@@ -4,7 +4,7 @@ parcel-sample.
 
 ## Feater
 
-- React √
+- React
 - ES6 with Babel
 - SCSS
 - CSS Module
